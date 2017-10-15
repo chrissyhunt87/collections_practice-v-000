@@ -33,6 +33,6 @@ def kesha_maker(array)
   kesha_array = array.map do |item|
     item_array = item.split("")
     item_array[2] = "$"
-    item_array.join
+    item_array.join("")
   end
 end
