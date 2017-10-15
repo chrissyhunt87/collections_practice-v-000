@@ -21,7 +21,3 @@ def swap_elements(array)
   array[2] = second
   array
 end
-
-def swap_elements_from_to(array, index, destination_index)
-  
-end
