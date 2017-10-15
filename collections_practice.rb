@@ -48,12 +48,18 @@ def find_a(array)
   end
 end
 
+# def sum_array(array)
+#   sum = 0
+#   array.each do |item|
+#     sum += item
+#   end
+#   sum
+# end
+
 def sum_array(array)
-  sum = 0
-  array.each do |item|
-    sum += item
+  array.inject do |result, i|
+    result + i
   end
-  sum
 end
 
 def add_s(array)
